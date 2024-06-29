@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Exercícios - JavaScript</title>
+    <style>
+        .exercise {
+            margin-bottom: 20px;
+        }
+        .result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Exercícios - JavaScript</h1>
+
+    <div class="exercise">
+        <h2>1. Maior Número</h2>
+        <input type="number" id="num1" placeholder="Digite o primeiro número">
+        <input type="number" id="num2" placeholder="Digite o segundo número">
+        <button onclick="exercicio1()">Submit</button>
+        <div class="result" id="resultado1"></div>
+    </div>
+
+    <div class="exercise">
+        <h2>2. Valor Positivo ou Negativo</h2>
+        <input type="number" id="valor" placeholder="Digite um valor">
+        <button onclick="exercicio2()">Submit</button>
+        <div class="result" id="resultado2"></div>
+    </div>
+
+    <div class="exercise">
+        <h2>3. Verificar Letra (F ou M)</h2>
+        <input type="text" id="letraFM" placeholder="Digite uma letra (F ou M)" maxlength="1">
+        <button onclick="exercicio3()">Submit</button>
+        <div class="result" id="resultado3"></div>
+    </div>
+
+    <div class="exercise">
+        <h2>4. Vogal ou Consoante</h2>
+        <input type="text" id="letraVC" placeholder="Digite uma letra" maxlength="1">
+        <button onclick="exercicio4()">Submit</button>
+        <div class="result" id="resultado4"></div>
+    </div>
+
+    <div class="exercise">
+        <h2>5. Divisível por 5</h2>
+        <input type="number" id="numero5" placeholder="Digite um número">
+        <button onclick="exercicio5()">Submit</button>
+        <div class="result" id="resultado5"></div>
+    </div>
+
+    <div class="exercise">
+        <h2>6. Intervalo entre 20 e 90</h2>
+        <input type="number" id="numero6" placeholder="Digite um número">
+        <button onclick="exercicio6()">Submit</button>
+        <div class="result" id="resultado6"></div>
+    </div>
+
+    <div class="exercise">
+        <h2>7. Verificar Votação</h2>
+        <input type="number" id="anoAtual" placeholder="Digite o ano atual">
+        <input type="number" id="anoNascimento" placeholder="Digite o ano de nascimento">
+        <button onclick="exercicio7()">Submit</button>
+        <div class="result" id="resultado7"></div>
+    </div>
+
+    <div class="exercise">
+        <h2>8. Média Aritmética</h2>
+        <input type="number" step="0.01" id="nota1" placeholder="Digite a nota da 1a. avaliação">
+        <input type="number" step="0.01" id="nota2" placeholder="Digite a nota da 2a. avaliação">
+        <button onclick="exercicio8()">Submit</button>
+        <div class="result" id="resultado8"></div>
+    </div>
+
+    <div class="exercise">
+        <h2>9. Salário dos Professores</h2>
+        <input type="number" step="0.01" id="horasProfessor1" placeholder="Horas do Professor 1">
+        <input type="number" step="0.01" id="valorHoraProfessor1" placeholder="Valor por Hora do Professor 1">
+        <input type="number" step="0.01" id="horasProfessor2" placeholder="Horas do Professor 2">
+        <input type="number" step="0.01" id="valorHoraProfessor2" placeholder="Valor por Hora do Professor 2">
+        <button onclick="exercicio9()">Submit</button>
+        <div class="result" id="resultado9"></div>
+    </div>
+
+    <div class="exercise">
+        <h2>10. Número Par ou Ímpar</h2>
+        <input type="number" id="numero10" placeholder="Digite um número inteiro">
+        <button onclick="exercicio10()">Submit</button>
+        <div class="result" id="resultado10"></div>
+    </div>
+
+    <div class="exercise">
+        <h2>11. Notas e Média</h2>
+        <input type="number" step="0.01" id="nota11a" placeholder="Nota da 1a. avaliação">
+        <input type="number" step="0.01" id="nota11b" placeholder="Nota da 2a. avaliação">
+        <button onclick="exercicio11()">Submit</button>
+        <div class="result" id="resultado11"></div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
